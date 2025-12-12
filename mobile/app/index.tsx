@@ -1,5 +1,5 @@
-import { WebView } from "react-native-webview";
+import InternetFailPage from "./components/internet-fail";
 
 export default function IndexPage() {
-  return <WebView source={{ uri: "http://192.168.45.40:3000" }} />;
+  return <InternetFailPage />;
 }

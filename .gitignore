@@ -17,6 +17,13 @@ coverage
 .next/
 out/
 
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+
 # production
 build
 
